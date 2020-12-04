@@ -1,0 +1,410 @@
+
+
+.header {
+    height: 82.5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+}
+
+.nav-text {
+    color: rgb(114, 12, 12);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 5px;
+}
+
+.navbar-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    padding: 0%;
+}
+
+.navbar-collapse {
+    font-size: 20px;
+    background-color:  rgb(240, 216, 184);
+}
+
+.navbar-nav {
+    text-align: left;
+}
+
+.header-text {
+   display: inline-block;
+    right: 20px;
+}
+
+.carousel-item {
+    height: 95vh;
+}
+
+.carousel-text {
+    /* color: rgb(172, 32, 32); */
+   
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.join-us {
+    color: white;
+}
+
+.about-section {
+    padding: 30px;
+    margin: 70px 0;
+}
+.about-us{
+        width: 80%;
+        min-width: 100%;
+        background-color:  rgb(240, 216, 184);
+
+    
+        padding: 2rem 4rem;
+}
+
+.about-img {
+    width: 100%;
+    height: 100%;
+}
+
+.btn {
+    background-color: rgb(172, 32, 32);
+    color: white;
+}
+
+.feature img {
+    width: 100%;
+    height: 180px;
+    margin: 10px;
+}
+
+.features {
+    display: grid ;
+
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 40px;
+    padding: 40px 60px 0;
+    margin: 10px;
+    font-style: inherit;
+    /* font-family: cursive; */
+    color:#3f4557;
+}
+
+.features-title {
+   grid-column-start: 1;
+   grid-column-end: 4;
+   background-color: rgb(172, 32, 32);
+   color: white;
+   display: block;
+   text-align: center;
+}
+
+.feature {
+   margin: 5px;
+
+}
+
+/* NEW */
+
+.news-img {
+    width: 700px;
+    height: 450px;
+    padding-bottom: 20px;
+}
+
+.Halima-img {
+    width: 700px;
+    height: 600px;
+    padding-top: 20px;
+}
+
+.Halima-baba {
+    font-style: oblique;
+}
+
+.Wildlife {
+    padding-top: 30px;
+}
+
+.news1 {
+    font-size: 30px;
+    font-style: oblique;
+    color: rgb(114, 12, 12);
+    padding-bottom: 40px;
+
+}
+
+.news-nigerians {
+    font-size: 23px;
+    padding-bottom: 10px;
+}
+
+.news1-hunters {
+    padding-right: 350px;
+  
+}
+
+.main-gallery {
+    align-items: center;
+}
+ /* End of News1 */
+
+
+/* Subscribe area */
+
+.subscribe{
+    padding: 4rem 4rem;
+    grid-column-start: 1;
+    grid-column-end: 4;
+   
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: initial;
+}
+
+.newsletter {
+    margin-right: 20px;
+}
+
+.newsletter h3{
+  font-size: 25px;
+  color: #344563;
+}
+
+.newsletter p{
+    color: #344563;
+    font-size: 12px;
+}
+
+.subscribeForm input{
+    padding: 10px 5px;
+    width: 150px;
+    
+}
+
+.subscribeForm {
+    margin-left: 20px;
+}
+
+.btn-subscribe{
+    width: auto;
+    margin: 0;
+    border: none;
+}
+
+.form-body {
+    font-family:  'Poppins', sans-serif;
+    background-color: #E6EFF6;
+    background-image: url("../images/project\ 8.jpg");
+    background-color: rgba(255, 0, 0, 0.616);
+}
+
+/* Gallery Style */
+
+.gallery-back {
+    background-color: rgba(172, 32, 32, 0.061);
+}
+
+/* End of gallery style */
+
+
+/* Footer Style */
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+* {
+  font-family: Open Sans;
+}
+
+
+.footer-distributed{
+    background-color: rgb(240, 216, 184);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+    padding: 55px 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #0a0a0a;
+	font: normal 36px 'Open Sans', cursive;
+    margin: 0;
+    font-size: 30px;
+}
+
+.footer-distributed h3 span{
+    color:  RGB(114, 12, 12);
+    font-size: 30px;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #070707;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #222;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #0a0a0a;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #0c0c0c;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  lightseagreen;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: rgb(5, 5, 5);
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #0a0a0a;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #070707;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
