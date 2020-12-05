@@ -134,8 +134,8 @@
     font-size: 30px;
     font-style: oblique;
     color: rgb(114, 12, 12);
-    padding-bottom: 40px;
-
+     padding-bottom: 30px;
+    padding-top: 70px;
 }
 
 .news-nigerians {
@@ -145,6 +145,7 @@
 
 .news1-hunters {
     padding-right: 350px;
+	
   
 }
 
